@@ -29,7 +29,8 @@ line_no = 0
 with bz2file.open(sys.argv[1], 'rb') as tsvfile:
     line_no += 1
     with open(sys.argv[2], 'w') as arfffile:
-        csvwriter = csv.writer(arfffile, quoting=csv.QUOTE_ALL)
+        # escape double quote
+        csvwriter = csv.writer(arfffile, quoting=csv.QUOTE_ALL, doublequote=False, escapechar='\\')
 
         arfffile.write("@relation 40-cat-training\n")
         """
@@ -75,7 +76,8 @@ with bz2file.open(sys.argv[1], 'rb') as tsvfile:
             out_tokens.append(title)
             out_tokens.append(keywords)
 
-            out_str = " ".join(out_tokens)
+            # filter out all the escape character
+            out_str = " ".join(out_tokens).replace('\\', '')
 
             if out_str == "":
                 continue
