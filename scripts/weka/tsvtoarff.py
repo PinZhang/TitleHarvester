@@ -43,19 +43,18 @@ with bz2file.open(sys.argv[1], 'rb') as tsvfile:
         for line in tsvfile:
             line = line.strip()
             try:
-                url, title, categories = line.split(FIELD_SEP)
+                url, title, keywords, categories = line.split(FIELD_SEP)
             except ValueError, e:
                 print "ERROR at line {0}: {1} ".format(line_no, line)
                 continue
 
             url = url.lower()
             title = title.lower()
+            keywords = keywords.lower()
 
             url = NOT_WORD.sub(" ", url)
-            title = NOT_WORD.sub(" ", title)
 
             url = url.split()
-            title = title.split()
 
             out_tokens = []
 
@@ -64,10 +63,17 @@ with bz2file.open(sys.argv[1], 'rb') as tsvfile:
                 if (token not in URL_STOPWORDS) and match is None and len(token) > 3:
                     out_tokens.append(token)
 
-            for token in title:
-                match = NO_LETTERS.match(token)
-                if (token not in STOPWORDS) and match is None and len(token) > 3:
-                    out_tokens.append(token)
+            # for token in title:
+            #     match = NO_LETTERS.match(token)
+            #     if (token not in STOPWORDS) and match is None and len(token) > 0:
+            #         out_tokens.append(token)
+
+            # for token in keywords:
+            #     match = NO_LETTERS.match(token)
+            #     if (token not in STOPWORDS) and match is None and len(token) > 0:
+            #         out_tokens.append(token)
+            out_tokens.append(title)
+            out_tokens.append(keywords)
 
             out_str = " ".join(out_tokens)
 
