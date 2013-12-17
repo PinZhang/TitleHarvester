@@ -1,36 +1,37 @@
 package org.mozilla.up;
 
-import com.google.common.base.Joiner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.regex.Pattern;
+
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
-import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.fs.FileSystem;
+import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
-import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.Mapper;
+import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.codehaus.jackson.JsonFactory;
 import org.codehaus.jackson.JsonParser;
 import org.codehaus.jackson.JsonToken;
-
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import com.google.common.net.InternetDomainName;
-
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.Map;
-import java.util.regex.Pattern;
-
-import org.apache.hadoop.util.Tool;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.TypeReference;
+
+import com.google.common.base.Joiner;
+import com.google.common.net.InternetDomainName;
 
 /**
  * Created with IntelliJ IDEA.
@@ -91,28 +92,46 @@ public class TitleHarvester extends Configured implements Tool
         // represent ruleset for blekko data, including regular expression
 
         private static Map<String, ArrayList<String>> domainCategories;
+
+        // Group the urls by domain.
+        private static Map<String, ArrayList<String>> urlIndexes;
+
         private static Joiner joiner = Joiner.on(',').skipNulls();
         private static Pattern wwwPattern = Pattern.compile("www\\w*");
 
         private void setupCategories(Context context) throws IOException
         {
-            try
-            {
-                ObjectMapper mapper = new ObjectMapper();
+            try {
                 String filePath = null;
                 String regionCode = context.getConfiguration().get("titleHarvester.regionCode");
                 String variation = context.getConfiguration().get("titleHarvester.variation");
 
                 if (null == variation || variation.isEmpty()) {
-                	filePath = String.format("/data/domain_cat_index/%1$s.json", regionCode);
+                    filePath = String.format("/data/domain_cat_index/%1$s.json", regionCode);
                 } else {
-                	filePath = String.format("/data/domain_cat_index/%1$s.%2$s.json", regionCode, variation);
+                    filePath = String.format("/data/domain_cat_index/%1$s.%2$s.json", regionCode, variation);
                 }
-                domainCategories = mapper.readValue(getClass().getResourceAsStream(filePath), new TypeReference<Map<String, ArrayList<String>>>(){});
-            } catch(IOException e)
-            {
+                buildCategories(getClass().getResourceAsStream(filePath));
+            } catch(IOException e) {
                 context.getCounter(ParseStats.ERR_SETUP).increment(1);
                 throw e;
+            }
+        }
+
+        private void buildCategories(InputStream stream) throws IOException {
+            ObjectMapper mapper = new ObjectMapper();
+            domainCategories = mapper.readValue(stream, new TypeReference<Map<String, ArrayList<String>>>(){});
+
+            urlIndexes = new HashMap<String, ArrayList<String>>();
+            for (String url : domainCategories.keySet()) {
+                URL uri = new URL("http://" + url.toLowerCase());
+                String host = uri.getHost();
+                ArrayList<String> groupedUrls = urlIndexes.get(host);
+                if (!urlIndexes.containsKey(host)) {
+                    groupedUrls = new ArrayList<String>();
+                    urlIndexes.put(host, groupedUrls);
+                }
+                groupedUrls.add(url);
             }
         }
 
@@ -299,11 +318,26 @@ public class TitleHarvester extends Configured implements Tool
                     }
                 }
 
-                if (domainCategories.containsKey(hostName))
-                {
-                    return domainCategories.get(hostName);
-                } else
-                {
+                if (urlIndexes.containsKey(hostName)) {
+                    ArrayList<String> groupedUrls = urlIndexes.get(hostName);
+                    for (String indexedUrl : groupedUrls) {
+                        // Look for the matched domain or path prefix, first matched rule is returned.
+                        if (indexedUrl.equals(hostName)) {
+                            return domainCategories.get(indexedUrl);
+                        }
+                        
+                        int index = url.indexOf(indexedUrl);
+                        if (index == -1) {
+                            continue;
+                        }
+
+                        String substr = url.substring(0, index);
+                        if (index > 0 && substr.equals("http://") || substr.equals("http://www.")
+                            || substr.equals("https://") || substr.equals("https://www.")) {
+                            return domainCategories.get(indexedUrl);
+                        }
+                    }
+                } else {
                     // no category match for this url
                     context.getCounter(ParseStats.PAGE_NO_CATEGORY).increment(1);
                 }
@@ -468,7 +502,7 @@ public class TitleHarvester extends Configured implements Tool
                 if ("--region-code".equals(args[i]) && i < args.length - 1) {
                     regionCode = args[i + 1];
                 } else if ("--variation".equals(args[i]) && i < args.length -1) {
-                	variation = args[i + 1];
+                    variation = args[i + 1];
                 }
             }
         }

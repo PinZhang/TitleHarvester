@@ -1,1187 +1,1234 @@
 {
-    "androidonline.net":[
-        "android"
+    "digi.ifeng.com/mobile": [
+        "mobile"
     ],
-    "android.tgbus.com":[
-        "android"
+    "mobile.163.com": [
+        "mobile"
     ],
-    "android.d.cn":[
-        "android"
+    "tech.sina.com.cn/mobile": [
+        "mobile"
     ],
-    "mumayi.com":[
-        "android"
+    "mobile.zol.com.cn": [
+        "mobile"
     ],
-    "android.91.com":[
-        "android"
+    "detail.zol.com.cn/cell_phone": [
+        "mobile"
     ],
-    "anzhuo.cn":[
-        "android"
+    "mobile.pconline.com.cn": [
+        "mobile"
     ],
-    "anzhuo.paojiao.cn":[
-        "android"
+    "product.pconline.com.cn/mobile": [
+        "mobile"
     ],
-    "apkol.com":[
-        "android"
+    "mobile.pcpop.com": [
+        "mobile"
     ],
-    "android.155.cn":[
-        "android"
+    "mobile.it168.com": [
+        "mobile"
     ],
-    "android.265g.com":[
-        "android"
+    "bbs.gfan.com": [
+        "mobile"
     ],
-    "weiphone.com":[
-        "apple"
+    "apk.hiapk.com": [
+        "app"
     ],
-    "app111.com":[
-        "apple"
+    "www.wandoujia.com/apps": [
+        "app"
     ],
-    "bbs.app111.com":[
-        "apple"
+    "shouji.baidu.com": [
+        "app"
     ],
-    "7do.net":[
-        "apple"
+    "apk.gfan.com": [
+        "app"
     ],
-    "apple.766.com":[
-        "apple"
+    "www.mumayi.com": [
+        "app"
     ],
-    "os-ios.liqucn.com":[
-        "apple"
+    "www.appchina.com": [
+        "app"
     ],
-    "macgood.com":[
-        "apple"
+    "www.anzhi.com": [
+        "app"
     ],
-    "applemi.net":[
-        "apple"
+    "play.google.com/store": [
+        "app"
     ],
-    "iphone.265g.com":[
-        "apple"
+    "www.xapcn.com": [
+        "app"
     ],
-    "ppios.com":[
-        "apple"
+    "www.weiphone.com/APPSTORE": [
+        "app"
     ],
-    "soomal.com":[
-        "digital-products"
+    "digi.tech.qq.com": [
+        "digital"
     ],
-    "dgtle.com":[
-        "digital-products"
+    "digi.ifeng.com": [
+        "digital"
     ],
-    "digi.tech.qq.com":[
-        "digital-products"
+    "digi.163.com": [
+        "digital"
     ],
-    "digi.163.com":[
-        "digital-products"
+    "tech.sina.com.cn/n": [
+        "digital"
     ],
-    "digi.it.sohu.com":[
-        "digital-products"
+    "detail.zol.com.cn/notebook": [
+        "digital"
     ],
-    "digital.msn.com.cn":[
-        "digital-products"
+    "detail.zol.com.cn/tablepc": [
+        "digital"
     ],
-    "cfan.com.cn":[
-        "digital-products"
+    "notebook.pconline.com.cn": [
+        "digital"
     ],
-    "beareyes.com.cn":[
-        "digital-products"
+    "pad.pconline.com.cn": [
+        "digital"
     ],
-    "bbs.mydigit.cn":[
-        "digital-products"
+    "notebook.it168.com": [
+        "digital"
     ],
-    "chinafix.com.cn":[
-        "digital-products"
+    "notebook.pchome.net": [
+        "digital"
     ],
-    "autohome.com.cn":[
-        "autos"
+    "digi.ifeng.com/dc": [
+        "photography-dc"
     ],
-    "pcauto.com.cn":[
-        "autos"
+    "tech.sina.com.cn/digi": [
+        "photography-dc"
     ],
-    "auto.163.com":[
-        "autos"
+    "detail.zol.com.cn/digital_camera": [
+        "photography-dc"
     ],
-    "xincheping.com":[
-        "autos"
+    "dcdv.zol.com.cn": [
+        "photography-dc"
     ],
-    "chaiche.chexun.com":[
-        "autos"
+    "dc.pconline.com.cn": [
+        "photography-dc"
     ],
-    "saicgroup.com":[
-        "autos"
+    "dc.it168.com": [
+        "photography-dc"
     ],
-    "chewen.com":[
-        "autos"
+    "dc.pchome.net": [
+        "photography-dc"
     ],
-    "chnsuv.com":[
-        "autos"
+    "qicai.fengniao.com": [
+        "photography-dc"
     ],
-    "faw.com.cn":[
-        "autos"
+    "info.xitek.com": [
+        "photography-dc"
     ],
-    "99fang.com":[
-        "house"
+    "www.wujiyou.com": [
+        "photography-dc"
     ],
-    "01fy.cn":[
-        "house"
+    "auto.qq.com": [
+        "auto"
     ],
-    "taofw.cn":[
-        "house"
+    "auto.ifeng.com": [
+        "auto"
     ],
-    "century21cn.com":[
-        "house"
+    "auto.163.com": [
+        "auto"
     ],
-    "mayi.com":[
-        "house"
+    "auto.sina.com.cn": [
+        "auto"
     ],
-    "tomson-riviera.com":[
-        "house"
+    "auto.huanqiu.com": [
+        "auto"
     ],
-    "swotbbs.com":[
-        "house"
+    "auto.sohu.com": [
+        "auto"
     ],
-    "house.china.com.cn":[
-        "house"
+    "www.autohome.com.cn": [
+        "auto"
     ],
-    "realestate.cei.gov.cn":[
-        "house"
+    "pingce.xincheping.com": [
+        "auto"
     ],
-    "vanke.com":[
-        "house"
+    "www.pcauto.com.cn": [
+        "auto"
     ],
-    "jdbbs.com":[
-        "domestic-appliance"
+    "auto.ku6.com": [
+        "auto"
     ],
-    "info.homea.hc360.com":[
-        "domestic-appliance"
+    "house.qq.com": [
+        "realestate"
     ],
-    "joyoung.com.cn":[
-        "domestic-appliance"
+    "house.ifeng.com": [
+        "realestate"
     ],
-    "tech.hexun.com/appliance":[
-        "domestic-appliance"
+    "www.taofw.cn": [
+        "realestate"
     ],
-    "shop.philips.com.cn":[
-        "domestic-appliance"
+    "soufun.com": [
+        "realestate"
     ],
-    "shop.tcl.com":[
-        "domestic-appliance"
+    "house.people.com.cn": [
+        "realestate"
     ],
-    "midea.com/cn":[
-        "domestic-appliance"
+    "house.focus.cn": [
+        "realestate"
     ],
-    "galanz.com.cn":[
-        "domestic-appliance"
+    "bj.house.163.com": [
+        "realestate"
     ],
-    "hisense.com/product":[
-        "domestic-appliance"
+    "sh.house.sina.com.cn": [
+        "realestate"
     ],
-    "skyworth.com/cn":[
-        "domestic-appliance"
+    "gz.loupan.com": [
+        "realestate"
     ],
-    "weimeixi.com":[
-        "decorating","design"
+    "bj.esf.focus.cn": [
+        "realestate"
     ],
-    "szfa.com":[
-        "decorating"
+    "digi.ifeng.com/ehome": [
+        "home-applicance"
     ],
-    "qumei.com":[
-        "decorating"
+    "tech.sina.com.cn/e": [
+        "home-applicance"
     ],
-    "bnq.com.cn":[
-        "decorating"
+    "tech.huanqiu.com/elec": [
+        "home-applicance"
     ],
-    "wanjuhe.com":[
-        "decorating"
+    "hea.163.com": [
+        "home-applicance"
     ],
-    "deco.rayli.com.cn":[
-        "decorating"
+    "jd.zol.com.cn": [
+        "home-applicance"
     ],
-    "xiuhome.com":[
-        "decorating"
+    "tv.zol.com.cn": [
+        "home-applicance"
     ],
-    "72xuan.com":[
-        "decorating"
+    "icebox.zol.com.cn": [
+        "home-applicance"
     ],
-    "home.sohu.com":[
-        "decorating"
+    "ac.zol.com.cn": [
+        "home-applicance"
     ],
-    "janehome.cn":[
-        "decorating"
+    "washer.zol.com.cn": [
+        "home-applicance"
     ],
-    "mogujie.com":[
+    "digi.163.com/waterheater": [
+        "home-applicance"
+    ],
+    "www.jia360.com": [
+        "home-decoration"
+    ],
+    "home.ifeng.com": [
+        "home-decoration"
+    ],
+    "home.163.com": [
+        "home-decoration"
+    ],
+    "home.focus.com": [
+        "home-decoration"
+    ],
+    "jiaju.sina.com.cn": [
+        "home-decoration"
+    ],
+    "16.jiaju.com": [
+        "home-decoration"
+    ],
+    "zhuangxiu.pchouse.com.cn": [
+        "home-decoration"
+    ],
+    "jiancai.17house.com": [
+        "home-decoration"
+    ],
+    "www.ljlj.cc": [
+        "home-decoration"
+    ],
+    "www.juran.cn": [
+        "home-decoration"
+    ],
+    "fashion.ifeng.com/trends": [
         "fashion-women"
     ],
-    "meilishuo.com":[
+    "slide.fashion.sina.com.cn/s": [
         "fashion-women"
     ],
-    "dress.pclady.com.cn":[
+    "fashion.sina.com.cn/s": [
         "fashion-women"
     ],
-    "fashion.rayli.com.cn":[
+    "fashion.rayli.com.cn": [
         "fashion-women"
     ],
-    "clothing.lady8844.com":[
+    "dress.pclady.com.cn": [
         "fashion-women"
     ],
-    "girdear.cn":[
+    "fashion.haibao.com": [
         "fashion-women"
     ],
-    "ochirly.com":[
+    "accessory.haibao.com": [
         "fashion-women"
     ],
-    "lachapelle.cn":[
+    "www.ellechina.com/fashion": [
         "fashion-women"
     ],
-    "guangjiela.com":[
+    "www.vogue.com.cn/fashion": [
         "fashion-women"
     ],
-    "fz.mina.com.cn":[
+    "www.yoka.com/fashion": [
         "fashion-women"
     ],
-    "nanshiw.com":[
+    "men.sohu.com": [
         "fashion-men"
     ],
-    "nanzhuangg.com":[
+    "man.pclady.com.cn": [
         "fashion-men"
     ],
-    "man.pclady.com.cn":[
+    "www.ellechina.com/men": [
         "fashion-men"
     ],
-    "inleon.rayli.com.cn":[
+    "www.yokamen.cn": [
         "fashion-men"
     ],
-    "markfairwhale.com":[
+    "www.gq.com.cn/fashion": [
         "fashion-men"
     ],
-    "cabbeen.com":[
+    "www.yksuit.com": [
         "fashion-men"
     ],
-    "shows.gq.com.cn":[
+    "inleon.rayli.com.cn": [
         "fashion-men"
     ],
-    "nanpinjie.com":[
+    "men.trends.com.cn/fashion": [
         "fashion-men"
     ],
-    "masamaso.com":[
+    "www.mangangs.com/trends": [
         "fashion-men"
     ],
-    "zhaonz.com":[
+    "www.trends.com.cn/man/fashion": [
         "fashion-men"
     ],
-    "faxingw.cn":[
-        "beauty"
-    ],
-    "beauty.rayli.com.cn":[
-        "beauty"
-    ],
-    "beauty.pclady.com.cn":[
-        "beauty"
-    ],
-    "cosme.pclady.com.cn":[
-        "beauty"
-    ],
-    "cctop100.com":[
-        "beauty"
-    ],
-    "51870.com":[
-        "beauty"
-    ],
-    "meirong.piaoliang.com":[
-        "beauty"
-    ],
-    "beauty.aili.com":[
-        "beauty"
-    ],
-    "i2ya.com":[
-        "beauty"
-    ],
-    "meiztuan.com":[
-        "beauty"
-    ],
-    "5lux.com":[
+    "www.shangpin.com": [
         "luxury"
     ],
-    "shangpin.com":[
+    "www.5lux.com": [
         "luxury"
     ],
-    "wbiao.cn":[
+    "www.aolai.com": [
         "luxury"
     ],
-    "aolai.com":[
+    "www.zhenpin.com": [
         "luxury"
     ],
-    "uemall.com":[
+    "www.meici.com": [
         "luxury"
     ],
-    "zhenpin.com":[
+    "www.xiu.com": [
         "luxury"
     ],
-    "meici.com":[
+    "www.wbiao.cn": [
         "luxury"
     ],
-    "luxury.msn.com.cn":[
+    "www.uemall.com": [
         "luxury"
     ],
-    "lux.vipshop.com":[
+    "luxury.pclady.com.cn": [
         "luxury"
     ],
-    "clinique.com.cn":[
+    "www.yoka.com/luxury": [
         "luxury"
     ],
-    "item.lingshi.com":[
-        "snack"
+    "fashion.qq.com/beauty": [
+        "beauty"
     ],
-    "lingshishe.com":[
-        "snack"
+    "cosmetics.ifeng.com": [
+        "beauty"
     ],
-    "lingshikong.com":[
-        "snack"
+    "fashion.sina.com.cn/b": [
+        "beauty"
     ],
-    "52yxs.com":[
-        "snack"
+    "plastic.pclady.com.cn": [
+        "beauty"
     ],
-    "didamall.com":[
-        "snack"
+    "hzp.yoka.com": [
+        "beauty"
     ],
-    "hclsw.com":[
-        "snack"
+    "www.faxingw.cn": [
+        "beauty"
     ],
-    "lingshi.99114.com":[
-        "snack"
+    "beauty.rayli.com.cn": [
+        "beauty"
     ],
-    "ju04.com":[
-        "snack"
+    "www.ellechina.com/beauty": [
+        "beauty"
     ],
-    "xiaohegu.com":[
-        "snack"
+    "www.vogue.com.cn/beauty": [
+        "beauty"
     ],
-    "010duoduo.com":[
-        "snack"
+    "www.yoka.com/beauty": [
+        "beauty"
     ],
-    "health.pclady.com.cn":[
+    "www.boohee.com": [
+        "fitness"
+    ],
+    "www.ssnn.net": [
+        "fitness"
+    ],
+    "fitness.39.net": [
+        "fitness"
+    ],
+    "www.zyjyyy.com": [
+        "fitness"
+    ],
+    "www.lady8844.com/shoushen": [
+        "fitness"
+    ],
+    "www.jianfei.com": [
+        "fitness"
+    ],
+    "jianfei.39.net": [
+        "fitness"
+    ],
+    "fashion.ifeng.com/body": [
+        "fitness"
+    ],
+    "fitness.pclady.com.cn": [
+        "fitness"
+    ],
+    "fashion.sina.com.cn/d/ft": [
+        "fitness"
+    ],
+    "health.qq.com": [
         "health"
     ],
-    "health.sina.com.cn":[
+    "fashion.ifeng.com/health": [
         "health"
     ],
-    "120ask.com":[
+    "health.sina.com.cn": [
         "health"
     ],
-    "zhongyi.sohu.com":[
+    "health.huanqiu.com": [
         "health"
     ],
-    "jianshen114.com":[
+    "health.pclady.com.cn": [
         "health"
     ],
-    "fx120.net":[
+    "health.sohu.com": [
         "health"
     ],
-    "zhzyw.org":[
+    "zhongyi.sohu.com": [
         "health"
     ],
-    "health.china.com":[
+    "care.39.net": [
         "health"
     ],
-    "jkb.com.cn":[
+    "news.39.net": [
         "health"
     ],
-    "ttys5.com":[
+    "www.39yst.com": [
         "health"
     ],
-    "sdxjpc.com":[
+    "www.dxy.cn": [
+        "medicine"
+    ],
+    "zl.39.net": [
+        "medicine"
+    ],
+    "www.familydoctor.com.cn": [
+        "medicine"
+    ],
+    "jkgl.familydoctor.com.cn": [
+        "medicine"
+    ],
+    "www.haodf.com": [
+        "medicine"
+    ],
+    "www.120ask.com": [
+        "medicine"
+    ],
+    "www.bjguahao.gov.cn": [
+        "medicine"
+    ],
+    "guahao.com": [
+        "medicine"
+    ],
+    "shanghai.guahao.com": [
+        "medicine"
+    ],
+    "order.999120.net": [
+        "medicine"
+    ],
+    "cul.qq.com": [
         "book"
     ],
-    "landraco.com":[
+    "book.ifeng.com": [
         "book"
     ],
-    "bookschina.com":[
+    "yuedu.163.com": [
         "book"
     ],
-    "book.kongfz.com":[
+    "book.sohu.com": [
         "book"
     ],
-    "haotushu.com":[
+    "book.douban.com": [
         "book"
     ],
-    "bjbb.com":[
+    "read.douban.com": [
         "book"
     ],
-    "bookdown.com.cn":[
+    "www.wfjsd.com": [
         "book"
     ],
-    "yilin.com":[
+    "www.bookschina.com": [
         "book"
     ],
-    "tup.tsinghua.edu.cn":[
+    "www.sciencep.com": [
         "book"
     ],
-    "sciencep.com":[
+    "www.china-pub.com": [
         "book"
     ],
-    "ttmeishi.net":[
+    "chuangshi.qq.com": [
+        "online-novel"
+    ],
+    "vip.book.sina.com.cn": [
+        "online-novel"
+    ],
+    "www.qidian.com": [
+        "online-novel"
+    ],
+    "read.qidian.com": [
+        "online-novel"
+    ],
+    "www.xxsy.net": [
+        "online-novel"
+    ],
+    "www.yanqing888.net": [
+        "online-novel"
+    ],
+    "www.xs8.cn": [
+        "online-novel"
+    ],
+    "www.jjwxc.net": [
+        "online-novel"
+    ],
+    "book.zongheng.com": [
+        "online-novel"
+    ],
+    "www.huanxia.com": [
+        "online-novel"
+    ],
+    "home.meishichina.com": [
         "cooking"
     ],
-    "douguo.com":[
+    "www.xiachufang.com": [
         "cooking"
     ],
-    "tfysw.com":[
+    "www.meishij.net": [
         "cooking"
     ],
-    "koovoo.com":[
+    "www.beitaichufang.com": [
         "cooking"
     ],
-    "chinacaipu.com":[
+    "www.chinacaipu.com": [
+        "cooking",
         "cooking"
     ],
-    "xinshipu.com":[
+    "www.ttmeishi.com": [
         "cooking"
     ],
-    "caipucaipu.com":[
+    "www.xinshipu.com": [
         "cooking"
     ],
-    "bjxdf.com":[
+    "www.haodou.com": [
         "cooking"
     ],
-    "beitaichufang.com":[
+    "www.douguo.com": [
         "cooking"
     ],
-    "yiqin92.com":[
+    "www.koovoo.com": [
         "cooking"
     ],
-    "fantong.com":[
-        "food"
+    "www.dianping.com": [
+        "gourmet"
     ],
-    "pinpin.com":[
-        "food"
+    "www.doodii.com": [
+        "gourmet"
     ],
-    "ele.me":[
-        "food"
+    "ele.me": [
+        "gourmet"
     ],
-    "4008823823.com.cn":[
-        "food"
+    "www.fantong.com": [
+        "gourmet"
     ],
-    "4008123123.com":[
-        "food"
+    "item.lingshi.com": [
+        "gourmet"
     ],
-    "xddcoffee.com":[
-        "food"
+    "www.lingshishe.com": [
+        "gourmet"
     ],
-    "doodii.com":[
-        "food"
+    "www.lingshikong.com": [
+        "gourmet"
     ],
-    "ajisen.com.cn":[
-        "food"
+    "www.52yxs.com": [
+        "gourmet"
     ],
-    "4006009900.com":[
-        "food"
+    "www.didamall.com": [
+        "gourmet"
     ],
-    "sitcoffee.com":[
-        "food"
+    "www.hclsw.com": [
+        "gourmet"
     ],
-    "goinlove.com":[
-        "weddings"
+    "www.vogue.com.cn/wedding": [
+        "wedding"
     ],
-    "pinla.com":[
-        "weddings"
+    "lady.hao123.com/hunjia": [
+        "wedding"
     ],
-    "brides.com.cn":[
-        "weddings"
+    "www.yoka.com/marry": [
+        "wedding"
     ],
-    "daxi.com":[
-        "weddings"
+    "wed.haxiu.com": [
+        "wedding"
     ],
-    "wed.7192.com":[
-        "weddings"
+    "www.xfwed.com": [
+        "wedding"
     ],
-    "obride.com":[
-        "weddings"
+    "www.marry52.com": [
+        "wedding"
     ],
-    "bbs.wed114.cn":[
-        "weddings"
+    "www.trends.com.cn/marriage": [
+        "wedding"
     ],
-    "marry.ddmap.com":[
-        "weddings"
+    "bbs.xfwed.com": [
+        "wedding"
     ],
-    "jhzwed.com":[
-        "weddings"
+    "fashion.sina.com.cn/w": [
+        "wedding"
     ],
-    "1314wed.com.cn":[
-        "weddings"
+    "bj.99wed.com": [
+        "wedding"
     ],
-    "babyschool.com.cn":[
+    "baby.qq.com": [
         "parenting"
     ],
-    "i52088.com":[
+    "fashion.ifeng.com/baby": [
         "parenting"
     ],
-    "babytree.com":[
+    "baby.163.com": [
         "parenting"
     ],
-    "qinzi.com.cn":[
+    "baby.sina.com.cn": [
         "parenting"
     ],
-    "edu.pcbaby.com.cn/game":[
+    "baobao.sohu.com": [
         "parenting"
     ],
-    "7zzy.com":[
+    "www.babytree.com": [
         "parenting"
     ],
-    "kidzchina.com":[
+    "www.mmbang.com": [
         "parenting"
     ],
-    "bbs.ibabyzone.cn":[
+    "www.mama.cn": [
         "parenting"
     ],
-    "cn0-6.com":[
+    "cn.babycenter.com": [
         "parenting"
     ],
-    "cn.babycenter.com":[
+    "www.babyschool.com.cn": [
         "parenting"
     ],
-    "exam8.com":[
+    "edu.qq.com": [
         "education"
     ],
-    "dearedu.com":[
+    "edu.ifeng.com": [
         "education"
     ],
-    "cqv.chinadegrees.cn/cn":[
+    "edu.163.com": [
         "education"
     ],
-    "eduzhai.net":[
+    "edu.people.com.cn": [
         "education"
     ],
-    "eduol.cn":[
+    "learning.sohu.com": [
         "education"
     ],
-    "kaoshi110.net":[
+    "www.51edu.com": [
         "education"
     ],
-    "xuexila.com":[
+    "www.jd100.com": [
         "education"
     ],
-    "xuexibar.cn":[
+    "www.kaoshi110.net": [
         "education"
     ],
-    "jiandan100.cn":[
+    "www.exam8.com": [
         "education"
     ],
-    "51edu.com":[
+    "www.dearedu.com": [
         "education"
     ],
-    "photo.poco.cn":[
-        "photography"
+    "bschool.sohu.com": [
+        "mooc"
     ],
-    "dp.pconline.com.cn":[
-        "photography"
+    "www.xuexila.com": [
+        "mooc"
     ],
-    "xiangshu.com":[
-        "photography"
+    "v.ifeng.com/gongkaike": [
+        "mooc"
     ],
-    "academy.fengniao.com":[
-        "photography"
+    "open.sina.com.cn": [
+        "mooc"
     ],
-    "leica.org.cn":[
-        "photography"
+    "mooc.guokr.com": [
+        "mooc"
     ],
-    "photofans.cn":[
-        "photography"
+    "www.oer.edu.cn": [
+        "mooc"
     ],
-    "pop-photo.com.cn":[
-        "photography"
+    "opencla.cntv.cn": [
+        "mooc"
     ],
-    "rxsy.net":[
-        "photography"
+    "www.coursera.org": [
+        "mooc"
     ],
-    "peoplephoto.com":[
-        "photography"
+    "www.edx.org": [
+        "mooc"
     ],
-    "photoker.com":[
-        "photography"
+    "www.khanacademy.org": [
+        "mooc"
     ],
-    "mafengwo.cn":[
+    "www.mafengwo.cn": [
         "travel"
     ],
-    "lvyou.baidu.com":[
+    "www.tuniu.com": [
         "travel"
     ],
-    "yododo.cn":[
+    "www.lvping.com": [
         "travel"
     ],
-    "chanyouji.com":[
+    "bbs.qyer.com": [
         "travel"
     ],
-    "daodao.com":[
+    "lvyou.baidu.com": [
         "travel"
     ],
-    "51766.com":[
+    "flight.qunar.com": [
         "travel"
     ],
-    "lvping.com":[
+    "hotel.elong.com": [
         "travel"
     ],
-    "17u.cn":[
+    "vocations.ctrip.com": [
         "travel"
     ],
-    "cnta.com":[
+    "travel.sina.com.cn": [
         "travel"
     ],
-    "cct.cn":[
+    "travel.163.com": [
         "travel"
     ],
-    "modernsky.com":[
-        "shows"
+    "www.228.com.cn": [
+        "show"
     ],
-    "chncpa.org":[
-        "shows"
+    "www.piao.com.cn": [
+        "show"
     ],
-    "yanchupiao.com":[
-        "shows"
+    "www.damai.cn": [
+        "show"
     ],
-    "piaobuy.com":[
-        "shows"
+    "www.piao88.com": [
+        "show"
     ],
-    "chinapiao.com.cn":[
-        "shows"
+    "www.yanchupiao.com": [
+        "show"
     ],
-    "bjktv.cn":[
-        "shows"
+    "www.piaobuy.com": [
+        "show"
     ],
-    "cashboxparty.com":[
-        "shows"
+    "www.gewara.com/movie": [
+        "show"
     ],
-    "bjsjsyly.com":[
-        "shows"
+    "theater.mtime.com": [
+        "show"
     ],
-    "zzzgg.com":[
-        "shows"
+    "movie.hipiao.com": [
+        "show"
     ],
-    "chnmuseum.cn":[
-        "shows"
+    "www.chncpa.org": [
+        "show"
     ],
-    "art.china.cn":[
-        "arts"
-    ],
-    "zggjysw.com":[
-        "arts"
-    ],
-    "capitalmuseum.org.cn":[
-        "arts"
-    ],
-    "namoc.org":[
-        "arts"
-    ],
-    "chinaacademyofart.com":[
-        "arts"
-    ],
-    "todayartmuseum.com":[
-        "arts"
-    ],
-    "yishujia.findart.com.cn":[
-        "arts"
-    ],
-    "798art.org":[
-        "arts"
-    ],
-    "cnmeiw.com":[
-        "arts"
-    ],
-    "artx.cn":[
-        "arts"
-    ],
-    "xiankankan.com":[
-        "design"
-    ],
-    "tooopen.com":[
-        "design"
-    ],
-    "rouding.com":[
-        "design"
-    ],
-    "oritive.com":[
-        "design"
-    ],
-    "poboo.com":[
-        "design"
-    ],
-    "duidea.com":[
-        "design"
-    ],
-    "2dianban.com":[
-        "design"
-    ],
-    "ycy8.net":[
-        "design"
-    ],
-    "micro-life.cn":[
-        "design"
-    ],
-    "techcn.com.cn":[
+    "tech.qq.com": [
         "technology"
     ],
-    "chinalabs.com":[
+    "tech.ifeng.com": [
         "technology"
     ],
-    "tech.sina.com.cn":[
+    "tech.163.com": [
         "technology"
     ],
-    "it.sohu.com":[
+    "tech.sina.com.cn": [
         "technology"
     ],
-    "tech.qq.com":[
+    "tech.huanqiu.com": [
         "technology"
     ],
-    "cnbeta.com":[
+    "it.sohu.com": [
         "technology"
     ],
-    "36kr.com":[
+    "news.zol.com.cn/tech": [
         "technology"
     ],
-    "tech2ipo.com":[
+    "cn.engadget.com": [
         "technology"
     ],
-    "tmtpost.com":[
+    "www.ifanr.com": [
         "technology"
     ],
-    "pingwest.com":[
+    "www.cfan.com.cn": [
         "technology"
     ],
-    "cnblogs.com":[
+    "jishu.zol.com.cn": [
         "programming"
     ],
-    "qqview.com":[
+    "blog.csdn.net": [
         "programming"
     ],
-    "bbs.bccn.net":[
+    "www.csdn.net": [
         "programming"
     ],
-    "kuqin.com":[
+    "bbs.csdn.net": [
         "programming"
     ],
-    "cxy.me":[
+    "www.cnblogs.com": [
         "programming"
     ],
-    "zzzj.com":[
+    "msdn.microsoft.com": [
         "programming"
     ],
-    "webjx.com":[
+    "github.com": [
         "programming"
     ],
-    "bbs.cyuyan.com.cn":[
+    "developer.mozilla.org": [
         "programming"
     ],
-    "jb51.net":[
+    "www.w3schools.com": [
         "programming"
     ],
-    "bcwhy.com":[
+    "www.zzzj.com": [
         "programming"
     ],
-    "guokr.com":[
+    "www.guokr.com": [
         "science"
     ],
-    "songshuhui.net":[
+    "songshuhui.net": [
         "science"
     ],
-    "huanqiukexue.com":[
+    "discovery.163.com": [
         "science"
     ],
-    "bjkp.gov.cn":[
+    "news.sciencetimes.com.cn": [
         "science"
     ],
-    "astron.ac.cn":[
+    "paper.sciencetimes.com.cn": [
         "science"
     ],
-    "plantphoto.cn":[
+    "blog.sciencetimes.com.cn": [
         "science"
     ],
-    "math.org.cn":[
+    "www.astron.ac.cn": [
         "science"
     ],
-    "cosmoscape.com":[
+    "www.huanqiukexue.com": [
         "science"
     ],
-    "cnphys.com":[
+    "www.cnphys.com": [
         "science"
     ],
-    "wulixueyuan.com":[
+    "www.math.org.cn": [
         "science"
     ],
-    "qianyan001.com":[
-        "military"
+    "news.qq.com": [
+        "news"
     ],
-    "leiting001.com":[
-        "military"
+    "news.ifeng.com": [
+        "news"
     ],
-    "zgfzw.org":[
-        "military"
+    "news.163.com": [
+        "news"
     ],
-    "cppcc.people.com.cn":[
-        "military"
+    "news.sina.com.cn": [
+        "news"
     ],
-    "politics.people.com.cn":[
-        "military"
+    "news.xinhuanet.com": [
+        "news"
     ],
-    "military.people.com.cn":[
-        "military"
+    "news.cnr.cn": [
+        "news"
     ],
-    "mil.chinaiiss.com":[
-        "military"
+    "news.cntv.cn": [
+        "news"
     ],
-    "51junshi.com":[
-        "military"
+    "china.huanqiu.com": [
+        "news"
     ],
-    "baxue.com":[
-        "military"
+    "video.sina.com.cn/p/news": [
+        "news"
     ],
-    "top81.com.cn":[
-        "military"
+    "v.ifeng.com/news": [
+        "news"
     ],
-    "finance.sina.com.cn":[
-        "finance"
+    "v.ifeng.com/mil": [
+        "militery"
     ],
-    "yicai.com":[
-        "finance"
+    "news.ifeng.com/mil": [
+        "militery"
     ],
-    "zgjrjw.com":[
-        "finance"
+    "war.163.com": [
+        "militery"
     ],
-    "financialnews.com.cn":[
-        "finance"
+    "news.xinhuanet.com/mil": [
+        "militery"
     ],
-    "finance.huagu.com":[
-        "finance"
+    "mil.huanqiu.com": [
+        "militery"
     ],
-    "cnfinance.cn":[
-        "finance"
+    "mil.chinaiiss.com": [
+        "militery"
     ],
-    "nfinv.com":[
-        "finance"
+    "junshi.xilu.com": [
+        "militery"
     ],
-    "popfinancing.com.cn":[
-        "finance"
+    "www.qianyan001.com": [
+        "militery"
     ],
-    "amoney.com.cn":[
-        "finance"
+    "www.cankaoa.com": [
+        "militery"
     ],
-    "eeo.com.cn":[
-        "finance"
+    "www.shijiemil.com": [
+        "militery"
     ],
-    "qncye.com":[
-        "entrepreneur"
+    "finance.qq.com": [
+        ""
     ],
-    "cyzone.cn":[
-        "entrepreneur"
+    "finance.sina.com.cn": [
+        ""
     ],
-    "iceo.com.cn":[
-        "entrepreneur"
+    "finance.ifeng.com": [
+        ""
     ],
-    "cyone.com.cn":[
-        "entrepreneur"
+    "money.163.com": [
+        ""
     ],
-    "cy.ncss.org.cn":[
-        "entrepreneur"
+    "news.xinhuanet.com/fortune": [
+        ""
     ],
-    "cn08.net":[
-        "entrepreneur"
+    "finance.huanqiu.com": [
+        ""
     ],
-    "78.cn":[
-        "entrepreneur"
+    "www.ftchinese.com": [
+        ""
     ],
-    "chinadxscy.com":[
-        "entrepreneur"
+    "finance.eastmoney.com": [
+        ""
     ],
-    "zzcyy.net":[
-        "entrepreneur"
+    "www.ce.cn": [
+        ""
     ],
-    "cg01.cn":[
-        "entrepreneur"
+    "news.hexun.com": [
+        ""
     ],
-    "ent.sina.com.cn":[
-        "gossip"
+    "v.baidu.com/show": [
+        "entertainment-gossip"
     ],
-    "ent.163.com":[
-        "gossip"
+    "video.sina.com.cn/p/ent": [
+        "entertainment-gossip"
     ],
-    "ent.huanqiu.com":[
-        "gossip"
+    "www.iqiyi.com/zongyi": [
+        "entertainment-gossip"
     ],
-    "msn.ent.ynet.com":[
-        "gossip"
+    "v.qq.com/variety": [
+        "entertainment-gossip"
     ],
-    "shcaoan.com":[
-        "gossip"
+    "v.ifeng.com/ent": [
+        "entertainment-gossip"
     ],
-    "eemedia.cn":[
-        "gossip"
+    "ent.qq.com": [
+        "entertainment-gossip"
     ],
-    "huabian.com":[
-        "gossip"
+    "ent.ifeng.com": [
+        "entertainment-gossip"
     ],
-    "bug.cn":[
-        "gossip"
+    "ent.163.com": [
+        "entertainment-gossip"
     ],
-    "kpoppark.com":[
-        "gossip"
+    "ent.sina.com.cn/s": [
+        "entertainment-gossip"
     ],
-    "news.mingxing.com":[
-        "gossip"
+    "yule.sohu.com": [
+        "entertainment-gossip"
     ],
-    "qiushibaike.com":[
+    "video.sina.com.cn/p/news/gaoxiao": [
         "humor"
     ],
-    "haha365.com":[
+    "www.hao123.com/gaoxiao": [
         "humor"
     ],
-    "gaoxiao8.com":[
+    "www.qiushibaike.com": [
         "humor"
     ],
-    "yikexun.cn":[
+    "www.mahua.com": [
         "humor"
     ],
-    "jijidi.com":[
+    "www.pengfu.com": [
         "humor"
     ],
-    "x.heshuicun.com":[
+    "baozoumanhua.com": [
         "humor"
     ],
-    "gaoxiaovod.com":[
+    "www.haha.mx": [
         "humor"
     ],
-    "xiaohuayoumo.com":[
+    "www.budejie.com": [
         "humor"
     ],
-    "gxdxw.cn":[
+    "www.fanjian.net": [
         "humor"
     ],
-    "youmogu.com":[
+    "www.gaoxiao8.com": [
         "humor"
     ],
-    "m1905.com":[
-        "movies"
+    "ent.sina.com.cn/y": [
+        ""
     ],
-    "movie.douban.com":[
-        "movies"
+    "music.baidu.com": [
+        ""
     ],
-    "piaohua.com":[
-        "movies"
+    "play.baidu.com": [
+        ""
     ],
-    "dytt8.net":[
-        "movies"
+    "www.xiami.com": [
+        ""
     ],
-    "tom365.com":[
-        "movies"
+    "www.1ting.com": [
+        ""
     ],
-    "dygod.net":[
-        "movies"
+    "www.kuwo.cn": [
+        ""
     ],
-    "vmovier.com/channel":[
-        "movies"
+    "www.kugou.com": [
+        ""
     ],
-    "ffdy.cc":[
-        "movies"
+    "www.9ku.com": [
+        ""
     ],
-    "66ys.cc":[
-        "movies"
+    "bbs.musicool.cn": [
+        ""
     ],
-    "whtbk.com":[
-        "movies"
+    "club.xialala.com": [
+        ""
     ],
-    "xiami.com":[
-        "music"
+    "v.baidu.com/movie": [
+        "movie"
     ],
-    "music.baidu.com":[
-        "music"
+    "www.m1905.com": [
+        "movie",
+        "movie"
     ],
-    "1ting.com":[
-        "music"
+    "www.iqiyi.com/dianying": [
+        "movie"
     ],
-    "9ku.com":[
-        "music"
+    "film.qq.com": [
+        "movie"
     ],
-    "vvvdj.com":[
-        "music","music"
+    "v.ifeng.com/movie": [
+        "movie"
     ],
-    "fm.baidu.com":[
-        "music"
+    "ent.sina.com.cn/m": [
+        "movie"
     ],
-    "douban.fm":[
-        "music"
+    "movie.douban.com": [
+        "movie"
     ],
-    "bbs.musicool.cn":[
-        "music"
+    "www.dygod.net": [
+        "movie"
     ],
-    "club.xialala.com":[
-        "music"
+    "www.piaohua.com": [
+        "movie"
     ],
-    "tv.2345.com":[
-        "television"
+    "v.baidu.com/tv": [
+        "TV-series"
     ],
-    "dianshiju.cntv.cn":[
-        "television"
+    "www.iqiyi.com/dianshiju": [
+        "TV-series"
     ],
-    "tv.hao123.com":[
-        "television"
+    "v.ifeng.com/teleplay": [
+        "TV-series"
     ],
-    "yyets.com":[
-        "television"
+    "ent.sina.com.cn/v": [
+        "TV-series"
     ],
-    "a67.com/tv":[
-        "television"
+    "tv.2345.com": [
+        "TV-series"
     ],
-    "77vcd.com":[
-        "television"
+    "tv.hao123.com": [
+        "TV-series"
     ],
-    "juqing.9duw.com":[
-        "television"
+    "tv.sohu.com": [
+        "TV-series"
     ],
-    "tv.sohu.com":[
-        "television"
+    "v.qq.com/tv": [
+        "TV-series"
     ],
-    "888tv.guojj.cn":[
-        "television"
+    "tv.letv.com": [
+        "TV-series"
     ],
-    "qwq.cc":[
-        "television"
+    "www.a67.com/tv": [
+        "TV-series"
     ],
-    "gamersky.com":[
-        "video-games"
+    "games.qq.com": [
+        "game"
     ],
-    "4399.com":[
-        "video-games"
+    "games.ifeng.com": [
+        "game"
     ],
-    "game.com.cn":[
-        "video-games"
+    "game.163.com": [
+        "game"
     ],
-    "abab.com":[
-        "video-games"
+    "games.sina.com.cn": [
+        "game"
     ],
-    "yx007.com":[
-        "video-games"
+    "lol.duowan.com": [
+        "game"
     ],
-    "game.people.com.cn":[
-        "video-games"
+    "bbs.duowan.com": [
+        "game"
     ],
-    "moliyo.com":[
-        "video-games"
+    "www.gamersky.com": [
+        "game"
     ],
-    "game.21cn.com":[
-        "video-games"
+    "www.7k7k.com": [
+        "game"
     ],
-    "game.mop.com":[
-        "video-games"
+    "www.4399.com": [
+        "game"
     ],
-    "espnstar.com.cn":[
+    "youxi.baidu.com": [
+        "game"
+    ],
+    "xyx.hao123.com": [
+        "game"
+    ],
+    "www.bilibili.tv": [
+        "anime-manga"
+    ],
+    "www.acfun.tv": [
+        "anime-manga"
+    ],
+    "v.baidu.com/comic": [
+        "anime-manga"
+    ],
+    "v.baidu.com/kan/comic": [
+        "anime-manga"
+    ],
+    "www.iqiyi.com/dongman": [
+        "anime-manga"
+    ],
+    "dh.bityx.com": [
+        "anime-manga"
+    ],
+    "comic.qq.com": [
+        "anime-manga"
+    ],
+    "www.narutom.com": [
+        "anime-manga"
+    ],
+    "donghua.dmzj.com": [
+        "anime-manga"
+    ],
+    "donghua.7k7k.com": [
+        "anime-manga"
+    ],
+    "sports.sina.com.cn": [
         "sports"
     ],
-    "zhibo8.cc":[
+    "sports.qq.com": [
         "sports"
     ],
-    "sports.163.com":[
+    "sports.163.com": [
         "sports"
     ],
-    "lottery.gov.cn":[
+    "video.sina.com.cn/p/sports": [
         "sports"
     ],
-    "cntaijiquan.com":[
+    "www.iqiyi.com/sports": [
         "sports"
     ],
-    "shuaijiao.com":[
+    "sports.ifeng.com": [
         "sports"
     ],
-    "qjhm.net":[
+    "sports.huanqiu.com": [
         "sports"
     ],
-    "gedoumi.com":[
+    "sports.sohu.com": [
         "sports"
     ],
-    "vbol.cn":[
+    "www.hupu.com": [
         "sports"
     ],
-    "sports.39.net":[
+    "sports.cntv.cn": [
         "sports"
     ],
-    "9inba.com":[
+    "sports.sina.com.cn/nba": [
         "basketball"
     ],
-    "basketball.titan24.com":[
+    "sports.sina.com.cn/cba": [
         "basketball"
     ],
-    "ballive.com":[
+    "nba.weibo.com": [
         "basketball"
     ],
-    "nba98.com":[
+    "nba.sports.163.com": [
         "basketball"
     ],
-    "ilanqiu.com":[
+    "cba.sports.163.com": [
         "basketball"
     ],
-    "aoshentv.com":[
+    "voice.hupu.com/nba": [
         "basketball"
     ],
-    "jsngl.com":[
+    "www.zhibo8.cc/nba": [
         "basketball"
     ],
-    "shanghaisharks.cn":[
+    "china.nba.com": [
         "basketball"
     ],
-    "sbs-sport.com":[
+    "www.cba.gov.cn": [
         "basketball"
     ],
-    "jltigers.com":[
+    "www.espnstar.com.cn": [
         "basketball"
     ],
-    "1soccer.com":[
+    "sports.sina.com.cn/global": [
         "soccer"
     ],
-    "soccerbar.cn":[
+    "sports.sina.com.cn/g": [
         "soccer"
     ],
-    "fa.org.cn":[
+    "sports.sina.com.cn/csl": [
         "soccer"
     ],
-    "soccer.goalchina.net":[
+    "sports.sina.com.cn/j": [
         "soccer"
     ],
-    "go01.com":[
+    "sports.huanqiu.com/soccer": [
         "soccer"
     ],
-    "wenqiu.com":[
+    "voice.hupu.com/soccer": [
         "soccer"
     ],
-    "zuqiu123.org":[
+    "www.zhibo8.cc/zuqiu": [
         "soccer"
     ],
-    "90oo.com":[
+    "www.1soccer.com": [
         "soccer"
     ],
-    "baxi.tv":[
+    "www.soccerbar.cn": [
         "soccer"
     ],
-    "shenhuafc.com.cn":[
+    "www.wenqiu.com": [
         "soccer"
-    ],
-    "tennis.com.cn":[
-        "tennis"
-    ],
-    "chinatennis.org.cn":[
-        "tennis","tennis"
-    ],
-    "wta.cn":[
-        "tennis"
-    ],
-    "tennis.org.cn":[
-        "tennis"
-    ],
-    "6tennis.com":[
-        "tennis"
-    ],
-    "atatour.com.cn":[
-        "tennis"
-    ],
-    "tennispai.com.cn":[
-        "tennis"
-    ],
-    "wangqiu.net":[
-        "tennis"
-    ],
-    "shtennis123.com":[
-        "tennis"
     ]
 }
