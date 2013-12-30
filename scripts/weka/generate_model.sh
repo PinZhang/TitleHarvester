@@ -7,6 +7,8 @@ DATAFILE_IN_BZ2=$1
 # make sure only name is specified, no path
 DATA_DIR=$2
 
+REGION_CODE=$3
+
 if [ -z "$DATAFILE_IN_BZ2" ];
   then
     echo "Please specify a bz2 data file!"
@@ -29,12 +31,12 @@ echo $COMMAND
 $($COMMAND)
 
 echo "Step 2: convert tsv to arff"
-COMMAND="python tsvtoarff.py $DATAFILE_IN_BZ2 $DEST_ARFF_FILE"
+COMMAND="python tsvtoarff.py $DATAFILE_IN_BZ2 $DEST_ARFF_FILE $REGION_CODE"
 echo $COMMAND
 $($COMMAND)
 
 echo "Step 3: batch generate models"
-COMMAND="./batch_generate.sh $DATA_DIR"
+COMMAND="./batch_generate.sh $DATA_DIR $REGION_CODE"
 echo $COMMAND
-nohup $($COMMAND) &
+nohup $COMMAND &
 
