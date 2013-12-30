@@ -27,7 +27,6 @@ with open('url_stopwords.txt', 'r') as f:
 
 line_no = 0
 with bz2file.open(sys.argv[1], 'rb') as tsvfile:
-    line_no += 1
     with open(sys.argv[2], 'w') as arfffile:
         # escape double quote
         csvwriter = csv.writer(arfffile, quoting=csv.QUOTE_ALL, doublequote=False, escapechar='\\')
@@ -42,6 +41,7 @@ with bz2file.open(sys.argv[1], 'rb') as tsvfile:
         arfffile.write("@data\n")
 
         for line in tsvfile:
+            line_no += 1
             line = line.strip()
             try:
                 url, title, keywords, categories = line.split(FIELD_SEP)
@@ -51,24 +51,30 @@ with bz2file.open(sys.argv[1], 'rb') as tsvfile:
 
             out_tokens = []
 
-            def _tokenize(string):
-              for token in NOT_WORD.sub(" ", string.lower()).split():
-                  match = NO_LETTERS.match(token)
-                  if (token not in STOPWORDS) and match is None and len(token) > 3:
-                      out_tokens.append(token)
+            def _tokenize(string, stop_words):
+                for token in NOT_WORD.sub(" ", string.lower()).split():
+                    match = NO_LETTERS.match(token)
+                    if (token not in stop_words) and match is None and len(token) > 3:
+                        out_tokens.append(token)
 
-            _tokenize(url)
+            _tokenize(url, URL_STOPWORDS)
+
+            def _tokenize_zh(string):
+                for token in string.split(' '):
+                    token = token.strip()
+                    if token not in STOPWORDS and len(token) > 3:
+                        out_tokens.append(token)
 
             '''
             For chinese websites, we skip the segmentation which will be
             performed in the data2vector.sh.
             '''
             if len(sys.argv) > 3 and sys.argv[3] == 'zh-CN':
-                out_tokens.append(title)
-                out_tokens.append(keywords)
+                _tokenize_zh(title)
+                _tokenize_zh(keywords)
             else:
-                _tokenize(title)
-                _tokenize(keywords)
+                _tokenize(title, STOPWORDS)
+                _tokenize(keywords, STOPWORDS)
 
             # filter out all the escape character
             out_str = " ".join(out_tokens).replace('\\', '')

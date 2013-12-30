@@ -16,10 +16,10 @@ if [ -n "$CP_DATA2VECTOR" ]
 fi
 
 COMMAND="java -XX:+UseConcMarkSweepGC -XX:PermSize=5g -Xmx10g -cp $CLASSPATH weka.filters.unsupervised.attribute.StringToWordVector -C -prune-rate 10 -T -I -N -W $NUM_WORDS -i ./$DATA_DIR/$DATA_DIR.arff -o ./$DATA_DIR/$DATA_DIR.word_vector.tfidf.w$NUM_WORDS.arff"
-if [[ $REGION_CODE = "zh-CN" ]]
-  then
-    COMMAND="java -XX:+UseConcMarkSweepGC -XX:PermSize=5g -Xmx10g -cp $CLASSPATH weka.filters.unsupervised.attribute.StringToWordVector -tokenizer org.mozilla.up.ChineseTokenizer -C -prune-rate 10 -T -I -N -W $NUM_WORDS -i ./$DATA_DIR/$DATA_DIR.arff -o ./$DATA_DIR/$DATA_DIR.word_vector.tfidf.w$NUM_WORDS.arff"
-fi
+# if [[ $REGION_CODE = "zh-CN" ]]
+#   then
+#     COMMAND="java -XX:+UseConcMarkSweepGC -XX:PermSize=5g -Xmx10g -cp $CLASSPATH weka.filters.unsupervised.attribute.StringToWordVector -tokenizer org.mozilla.up.ChineseTokenizer -C -prune-rate 10 -T -I -N -W $NUM_WORDS -i ./$DATA_DIR/$DATA_DIR.arff -o ./$DATA_DIR/$DATA_DIR.word_vector.tfidf.w$NUM_WORDS.arff"
+# fi
 
-$($COMMAND)
+$COMMAND
 
