@@ -137,15 +137,16 @@ public class TitleHarvesterMapperGetTitleTest
         Method buildCategories = TitleHarvester.TitleHarvestMapper.class.getDeclaredMethod("buildCategories", InputStream.class);
         buildCategories.setAccessible(true);
 
-        String jsonString = "{\"domain1.com\":[\"category1\"],\"domain2.com/path\":[\"category2\"]}";
+        String jsonString = "{\"domain1.com\":[\"category1\"],\"domain2.com\":[\"category2\"],\"domain2.com/path\":[\"category3\"]}";
         buildCategories.invoke(thm, new ByteArrayInputStream(jsonString.getBytes("UTF-8")));
 
         Method getCategories = TitleHarvester.TitleHarvestMapper.class.getDeclaredMethod("getCategories", String.class, Mapper.Context.class);
         getCategories.setAccessible(true);
 
         ArrayList<String> categories = (ArrayList<String>)getCategories.invoke(thm, "http://www.domain2.com/path/test.php", mockedContext);
-        assertEquals(1, categories.size());
+        assertEquals(2, categories.size());
         assertEquals("category2", categories.get(0));
+        assertEquals("category3", categories.get(1));
 
         categories = (ArrayList<String>)getCategories.invoke(thm, "http://subdomain.domain2.com/path/test.php", mockedContext);
         assertEquals(null, categories);

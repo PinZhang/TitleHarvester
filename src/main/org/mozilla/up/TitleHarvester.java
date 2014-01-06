@@ -320,23 +320,28 @@ public class TitleHarvester extends Configured implements Tool
 
                 if (urlIndexes.containsKey(hostName)) {
                     ArrayList<String> groupedUrls = urlIndexes.get(hostName);
+                    ArrayList<String> results = new ArrayList<String>();
                     for (String indexedUrl : groupedUrls) {
-                        // Look for the matched domain or path prefix, first matched rule is returned.
+                        // Look for the matched domain
                         if (indexedUrl.equals(hostName)) {
-                            return domainCategories.get(indexedUrl);
+                            results.addAll(domainCategories.get(indexedUrl));
+                            continue;
                         }
-                        
+
                         int index = url.indexOf(indexedUrl);
                         if (index == -1) {
                             continue;
                         }
 
+                        // Look for matched domain and path
                         String substr = url.substring(0, index);
                         if (index > 0 && substr.equals("http://") || substr.equals("http://www.")
                             || substr.equals("https://") || substr.equals("https://www.")) {
-                            return domainCategories.get(indexedUrl);
+                            results.addAll(domainCategories.get(indexedUrl));
                         }
                     }
+
+                    return results.size() == 0 ? null : results;
                 } else {
                     // no category match for this url
                     context.getCounter(ParseStats.PAGE_NO_CATEGORY).increment(1);
